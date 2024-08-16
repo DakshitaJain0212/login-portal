@@ -1,25 +1,20 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Hero from './pages/Hero';
-import './App.css';
-import Dashboard from './pages/Dashboard';
 
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/PdfViewerPage";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <BrowserRouter>
-      
-      <div>
+    <Router>
+      <Navbar>
         <Routes>
-          <Route path="/" element={< Hero />} />
-          <Route path="/dashboard" element={<Dashboard />}/>
-          
+          <Route path="/" element={<Home />} />
         </Routes>
-
-      </div>
-
-    </BrowserRouter>
+      </Navbar>
+    </Router>
   );
-}
+};
 
 export default App;

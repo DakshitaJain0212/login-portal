@@ -1,0 +1,10 @@
+export const SET_PDF_DATA = 'SET_PDF_DATA';
+export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+export const UPDATE_TEXT = 'UPDATE_TEXT';
+export const ADD_PAGE = 'ADD_PAGE';
+export const DELETE_PAGE = 'DELETE_PAGE';
+export const REORDER_PAGE = 'REORDER_PAGE';
+export const SET_PDF_URL = 'SET_PDF_URL';
+export const SET_PDF_DETAILS = "SET_PDF_DETAILS";
+export const UPDATE_TEXT_STYLE = 'UPDATE_TEXT_STYLE';
+export const IMAGE_EDIT = "IMAGE_EDIT";
